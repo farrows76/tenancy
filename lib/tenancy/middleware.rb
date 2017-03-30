@@ -7,8 +7,8 @@ module Tenancy
     def call(env)
       request  = Rack::Request.new(env)
       identifier = Parser.new(request.host).parse
-      #
-      # env['Current-Tenant'] = detector.detect
+
+      env['Current-Tenant'] = identifier
 
       @app.call(env)
     end

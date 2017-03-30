@@ -1,11 +1,13 @@
 # Tenancy
+[![Build Status](https://travis-ci.org/farrows76/tenancy.svg?branch=master)](https://travis-ci.org/farrows76/tenancy)
+
 Simple middleware to set up a Multitenant environment.
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tenancy'
+gem 'tenancy', git: 'git://github.com/farrows76/tenancy.git'
 ```
 
 And then execute:
