@@ -2,6 +2,7 @@ require 'tenancy/railtie' if defined?(Rails)
 require 'tenancy/version'
 require 'tenancy/config'
 require 'tenancy/middleware'
+require 'tenancy/parser'
 
 module Tenancy
   # configure tenancy with available options
